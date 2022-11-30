@@ -1,0 +1,15 @@
+Forms Can Be Submitted With An Invalid Date
+
+Steps to reproduce: 
+
+1. Fill in the first question with two or three strings (only letters). 
+2. Fill in the second question with a impossible date (example: 32/12/1970 or 30/05/3240).
+3. Fill in the third question with at least two strings (only letters). 
+4. Attempt to submit the form.
+
+
+Expected Result:
+An error message is displayed indicating you can't submit with an invalid date.
+
+Actual Result: 
+Forms can be submitted successfully.

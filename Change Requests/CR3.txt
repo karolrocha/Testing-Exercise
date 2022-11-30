@@ -1,0 +1,15 @@
+Forms Can Be Submitted With Only Special Characters As An Answer
+
+Steps to reproduce: 
+
+1. Fill in the first question with only special characters (!"#$%&'()*+,‑./). 
+2. Fill in the second question with a possible date (example: 20/12/2000 or 12/05/2020).
+3. Fill in the third question with only special characters (!"#$%&'()*+,‑./). 
+4. Attempt to submit the form.
+
+
+Expected Result:
+An error message is displayed indicating you can't submit with an invalid answer.
+
+Actual Result: 
+Forms can be submitted successfully.

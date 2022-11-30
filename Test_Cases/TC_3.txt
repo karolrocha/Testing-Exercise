@@ -1,0 +1,13 @@
+TC 3: Language translation
+
+Initial steps:
+1. Open or refresh the forms page. 
+
+Test steps: 
+1. click on the flag displayed in the left superior corner. 
+2. Change the language by choosing another one. 
+
+Expected results:
+1. Other language option is displayed.
+2. Language change is successful.
+3. assert if each string displayed has changed to the language selected. 

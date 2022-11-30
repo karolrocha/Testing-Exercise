@@ -1,0 +1,14 @@
+Not All Strings Are Translated Correctly When Changing The Webpage Language
+
+Steps to reproduce: 
+
+1. Open or refresh the forms page. 
+2. click on the flag displayed in the left superior corner. 
+3. Change the language by choosing another one. 
+
+
+Expected Result:
+Each string displayed has changed to the language selected.
+
+Actual Result: 
+Some text keeps in the original language (English).

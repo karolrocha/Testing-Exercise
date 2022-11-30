@@ -1,0 +1,16 @@
+TC 4: Answer check 1 - Date check 
+
+Initial steps:
+1. Open or refresh the forms page. 
+
+Test steps: 
+1. Fill in the first question with two or three strings (only letters). 
+2. Fill in the second question with a impossible date (example: 32/12/1970 or 30/05/3240).
+3. Fill in the third question with at least two strings (only letters). 
+4. Attempt to submit the form.
+
+Expected results:
+1. Question is answered successfully.
+2. Question is answered successfully.
+3. Question is answered successfully.
+4. Assert if error message is displayed indicating you can't submit with an invalid date.

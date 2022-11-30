@@ -1,0 +1,14 @@
+TC 2: Required fields
+
+Initial steps:
+1. Open or refresh the forms page. 
+
+Test steps: 
+1. Fill in 2 out of 3 questions, leaving the first one blank.
+2. attempt to submit the forms.
+
+Expected results:
+1. Questions are answered successfully
+2. Assert if an error message is displayed indicating you can't submit without
+   answering one of the questions. 
+3. Repeat the test for the other two questions.

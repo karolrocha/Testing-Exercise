@@ -1,0 +1,12 @@
+TC 1: Submit Answers - PASS
+
+TC 2: Required fields - PASS
+
+TC 3: Language translation - FAIL 
+Existing product CR: []()
+
+TC 4: Answer check 1 - Date check - FAIL
+Existing product CR: []()
+
+TC 5: Answer check 2 - Character check - FAIL
+Existing product CR: []()

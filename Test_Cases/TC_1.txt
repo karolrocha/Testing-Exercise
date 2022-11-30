@@ -1,0 +1,12 @@
+TC 1: Submit Answers
+
+Initial steps:
+1. Open or refresh the forms page. 
+
+Test steps: 
+1. Fill in all of the questions.
+2. attempt to submit the forms.
+
+Expected results:
+1. Questions are answered successfully
+2. Assert if the forms can be submitted successfully. 

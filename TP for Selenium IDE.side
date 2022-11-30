@@ -1,0 +1,387 @@
+{
+  "id": "079ee3bf-2227-4ba6-b51a-ed368199574b",
+  "version": "2.0",
+  "name": "Test Plan for Liferay Forms - cicle 1",
+  "url": "https://forms.liferay.com",
+  "tests": [{
+    "id": "2b7114b2-f82c-41ce-b126-759156eb2ddd",
+    "name": "TC 2: Required fields",
+    "commands": [{
+      "id": "81903e20-dc6c-4ecb-9fec-076b04bd3c86",
+      "comment": "",
+      "command": "open",
+      "target": "/web/forms/shared/-/form/122548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e998f315-1fad-4a87-b2f2-4c9f9867c107",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "653x675",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3090234-1ca5-4aad-92c3-d87d1ba93498",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/div/div/input",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$gSVE9t1A$0$$en_US", "name"],
+        ["css=.has-error > .form-control", "css:finder"],
+        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$gSVE9t1A$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormTEey0KVK']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "066237c3-9f11-4f48-b79c-f22ca471562d",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div/div/div/input",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$SCwq48le$0$$en_US", "name"],
+        ["css=.has-error > .form-control", "css:finder"],
+        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$SCwq48le$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormZEin41cv']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "Pele"
+    }, {
+      "id": "9f4dd2fb-e86a-4185-8807-516478ae877d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group-inset",
+      "targets": [
+        ["css=.input-group-inset", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormsNqjiHiH']/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7f84293-af3c-4066-b3be-b2a29acf8c1f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.input-group-inset",
+      "targets": [
+        ["css=.input-group-inset", "css:finder"],
+        ["xpath=(//input[@value='02/05/1980'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormsNqjiHiH']/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/input[2]", "xpath:position"]
+      ],
+      "value": "02/05/1980"
+    }, {
+      "id": "d85b1806-dd91-42f4-b8a9-da2d8ef34364",
+      "comment": "",
+      "command": "click",
+      "target": "id=ddm-form-submit",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d4ca4af-8a84-4a01-9128-ff8b8d3a6b83",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.form-feedback-item",
+      "targets": [
+        ["css=.form-feedback-item", "css:finder"],
+        ["xpath=//div[@id='ddmFormzwy5YPx2']/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/span[2]/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div", "xpath:position"]
+      ],
+      "value": "This field is required."
+    }, {
+      "id": "f4ad14b5-c810-4269-a0c1-203c1961908a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//textarea",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US", "name"],
+        ["css=.has-error > .ddm-field-text", "css:finder"],
+        ["xpath=//textarea[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormMp4K9XOg']/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0777598-191e-4645-a7cb-e7b321e462e4",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//textarea",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US", "name"],
+        ["css=.col-md-12 > .ddm-field-container .ddm-field-text", "css:finder"],
+        ["xpath=//textarea[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormMp4K9XOg']/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "because it has always been my dream"
+    }, {
+      "id": "a3729a02-d266-4d5a-ac5f-3f0ef01978b3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/div/div/input",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$J7r0PuKD$0$$en_US", "name"],
+        ["css=.col-md-7 .form-control", "css:finder"],
+        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$J7r0PuKD$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormMp4K9XOg']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "737ec453-6a0e-4e71-958f-3149697fcac9",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div/div/div/input",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$J7r0PuKD$0$$en_US", "name"],
+        ["css=.has-error > .form-control", "css:finder"],
+        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$J7r0PuKD$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormMp4K9XOg']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f0a047d-f5e2-420a-918c-6fb4e279c537",
+      "comment": "",
+      "command": "click",
+      "target": "id=ddm-form-submit",
+      "targets": [
+        ["id=ddm-form-submit", "id"],
+        ["css=#ddm-form-submit", "css:finder"],
+        ["xpath=//button[@id='ddm-form-submit']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormMp4K9XOg']/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9734baf7-f968-439f-8320-c230d1d4392d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.form-feedback-item",
+      "targets": [
+        ["css=.form-feedback-item", "css:finder"],
+        ["xpath=//div[@id='ddmFormMp4K9XOg']/div[2]/div/div/div/div/div/div/div/div/div/div/div/span[2]/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div", "xpath:position"]
+      ],
+      "value": "This field is required."
+    }, {
+      "id": "7fe21b51-0857-4b35-b684-6485a6e800af",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/div/div/input",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$yVWHtcLw$0$$en_US", "name"],
+        ["css=.col-md-7 .form-control", "css:finder"],
+        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$yVWHtcLw$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmForm5vHz7RVh']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dac2849a-2e9f-4cf6-afc1-1171a0fb1783",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div/div/div/input",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$yVWHtcLw$0$$en_US", "name"],
+        ["css=.col-md-7 .form-control", "css:finder"],
+        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$yVWHtcLw$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmForm5vHz7RVh']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "Pele"
+    }, {
+      "id": "42c7eb9e-0c76-4d60-99e6-88f0e102943a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group-inset",
+      "targets": [
+        ["css=.input-group-inset", "css:finder"],
+        ["xpath=(//input[@value='02/05/1980'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='ddmForm5vHz7RVh']/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a1ff5e9-2e52-4329-be29-dc952497f275",
+      "comment": "",
+      "command": "type",
+      "target": "css=.input-group-inset",
+      "targets": [
+        ["css=.input-group-inset", "css:finder"],
+        ["xpath=(//input[@value='__/__/____'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='ddmForm5vHz7RVh']/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/input[2]", "xpath:position"]
+      ],
+      "value": "__/__/____"
+    }, {
+      "id": "ca7deed3-2f61-407d-b302-7f36bc072052",
+      "comment": "",
+      "command": "click",
+      "target": "id=ddm-form-submit",
+      "targets": [
+        ["id=ddm-form-submit", "id"],
+        ["css=#ddm-form-submit", "css:finder"],
+        ["xpath=//button[@id='ddm-form-submit']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmForm5vHz7RVh']/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd6bafcc-fe97-4634-98b2-00cd42c6d39f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.form-feedback-item",
+      "targets": [
+        ["css=.form-feedback-item", "css:finder"],
+        ["xpath=//div[@id='ddmForm5vHz7RVh']/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div/span[2]/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div", "xpath:position"]
+      ],
+      "value": "This field is required."
+    }]
+  }, {
+    "id": "8445ca93-bc74-45d8-82e5-e9fce4c149bc",
+    "name": "TC 1: Submit Answers",
+    "commands": [{
+      "id": "56e463de-95ca-4729-aa37-cfec7ee4f3c1",
+      "comment": "",
+      "command": "open",
+      "target": "/web/forms/shared/-/form/122548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb8dd7c0-d121-421f-a059-b4a83b38aad7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "653x675",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fac4cbb-8ad5-4e62-b80d-5c5b41ee6c63",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/div/div/input",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$gSVE9t1A$0$$en_US", "name"],
+        ["css=.has-error > .form-control", "css:finder"],
+        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$gSVE9t1A$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormTEey0KVK']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24f8c20b-809c-493e-b32c-35bea1dae147",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div/div/div/input",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$SCwq48le$0$$en_US", "name"],
+        ["css=.has-error > .form-control", "css:finder"],
+        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$SCwq48le$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormZEin41cv']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "Pele"
+    }, {
+      "id": "752eb129-20eb-470a-a41f-c559ad2d6660",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group-inset",
+      "targets": [
+        ["css=.input-group-inset", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormsNqjiHiH']/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02ec982d-fd8a-45bb-9115-df621fd0fb63",
+      "comment": "",
+      "command": "type",
+      "target": "css=.input-group-inset",
+      "targets": [
+        ["css=.input-group-inset", "css:finder"],
+        ["xpath=(//input[@value='02/05/1980'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormsNqjiHiH']/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/input[2]", "xpath:position"]
+      ],
+      "value": "02/05/1980"
+    }, {
+      "id": "e0faeffc-1795-4208-a0f4-edb94eec3082",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//textarea",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US", "name"],
+        ["css=.has-error > .ddm-field-text", "css:finder"],
+        ["xpath=//textarea[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormMp4K9XOg']/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83e5e8ff-2528-4d7b-9d63-08da679c75a1",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//textarea",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US", "name"],
+        ["css=.col-md-12 > .ddm-field-container .ddm-field-text", "css:finder"],
+        ["xpath=//textarea[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormMp4K9XOg']/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "because it has always been my dream"
+    }, {
+      "id": "9aa559fc-0daa-4c53-9de4-3ab5c46ad448",
+      "comment": "",
+      "command": "click",
+      "target": "id=ddm-form-submit",
+      "targets": [
+        ["id=ddm-form-submit", "id"],
+        ["css=#ddm-form-submit", "css:finder"],
+        ["xpath=//button[@id='ddm-form-submit']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmForm5vHz7RVh']/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a9a0ddc-b460-4d38-9f9a-eefcbab33b93",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h2",
+      "targets": [
+        ["css=.lfr-ddm__default-page-title", "css:finder"],
+        ["xpath=//div[@id='p_p_id_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_']/div/div/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Thank you.')]", "xpath:innerText"]
+      ],
+      "value": "Thank you."
+    }, {
+      "id": "65de4479-2854-4485-bbb8-f4bf35561158",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//p",
+      "targets": [
+        ["css=.lfr-ddm__default-page-description", "css:finder"],
+        ["xpath=//div[@id='p_p_id_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_']/div/div/div[2]/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Your information was successfully received. Thank you for filling out the form.')]", "xpath:innerText"]
+      ],
+      "value": "Your information was successfully received. Thank you for filling out the form."
+    }]
+  }],
+  "suites": [{
+    "id": "285bbd00-e0e1-43f1-9b7b-2d61935ee46f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2b7114b2-f82c-41ce-b126-759156eb2ddd"]
+  }],
+  "urls": ["https://forms.liferay.com/"],
+  "plugins": []
+}
