@@ -9,7 +9,7 @@ Here you can check the [Test Plan](https://github.com/karolrocha/Testing-Exercis
 ## Automated Testing
 
 Running the automated test suite with Selenium IDE:
-You can add Selenium IDE extension to your browser and open [the test suite file](https://github.com/karolrocha/Testing-Exercise/blob/prinicipal/Test%20Plan%20for%20Liferay%20Forms%20-%20cicle%201.side) there. You will be able to run the test suite on your own. 
+You can add Selenium IDE extension to your browser and open the [test suite file](https://github.com/karolrocha/Testing-Exercise/blob/prinicipal/Test%20Plan%20for%20Liferay%20Forms%20-%20cicle%201.side) there. You will be able to run the test suite on your own. 
 Here are the links for either you're using [Chrome](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd) or [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/selenium-ide/) browser. 
 
 ## Bug Reporting
