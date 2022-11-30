@@ -89,6 +89,39 @@
       ],
       "value": "This field is required."
     }, {
+      "id": "f64aed85-83ad-4cdd-8028-9a72c7a99e96",
+      "comment": "",
+      "command": "open",
+      "target": "/web/forms/shared/-/form/122548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab86e2c0-8bdb-40cd-82fc-311adf601584",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/div/div/input",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$gSVE9t1A$0$$en_US", "name"],
+        ["css=.has-error > .form-control", "css:finder"],
+        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$gSVE9t1A$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormTEey0KVK']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68219ccb-6eac-4cc1-9923-f67c1eb6f408",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div/div/div/input",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$SCwq48le$0$$en_US", "name"],
+        ["css=.has-error > .form-control", "css:finder"],
+        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$SCwq48le$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormZEin41cv']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "Pele"
+    }, {
       "id": "f4ad14b5-c810-4269-a0c1-203c1961908a",
       "comment": "",
       "command": "click",
@@ -115,32 +148,6 @@
       ],
       "value": "because it has always been my dream"
     }, {
-      "id": "a3729a02-d266-4d5a-ac5f-3f0ef01978b3",
-      "comment": "",
-      "command": "click",
-      "target": "xpath=//div/div/div/input",
-      "targets": [
-        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$J7r0PuKD$0$$en_US", "name"],
-        ["css=.col-md-7 .form-control", "css:finder"],
-        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$J7r0PuKD$0$$en_US']", "xpath:attributes"],
-        ["xpath=//div[@id='ddmFormMp4K9XOg']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//div/div/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "737ec453-6a0e-4e71-958f-3149697fcac9",
-      "comment": "",
-      "command": "type",
-      "target": "xpath=//div/div/div/input",
-      "targets": [
-        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$J7r0PuKD$0$$en_US", "name"],
-        ["css=.has-error > .form-control", "css:finder"],
-        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$J7r0PuKD$0$$en_US']", "xpath:attributes"],
-        ["xpath=//div[@id='ddmFormMp4K9XOg']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//div/div/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "4f0a047d-f5e2-420a-918c-6fb4e279c537",
       "comment": "",
       "command": "click",
@@ -166,31 +173,38 @@
       ],
       "value": "This field is required."
     }, {
-      "id": "7fe21b51-0857-4b35-b684-6485a6e800af",
+      "id": "6cf8564e-11ae-4732-98df-922c8c4a658a",
+      "comment": "",
+      "command": "open",
+      "target": "/web/forms/shared/-/form/122548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7230b56b-1d94-48b4-b9f3-0282770230f3",
       "comment": "",
       "command": "click",
-      "target": "xpath=//div/div/div/input",
+      "target": "xpath=//textarea",
       "targets": [
-        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$yVWHtcLw$0$$en_US", "name"],
-        ["css=.col-md-7 .form-control", "css:finder"],
-        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$yVWHtcLw$0$$en_US']", "xpath:attributes"],
-        ["xpath=//div[@id='ddmForm5vHz7RVh']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//div/div/div/input", "xpath:position"]
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US", "name"],
+        ["css=.has-error > .ddm-field-text", "css:finder"],
+        ["xpath=//textarea[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormMp4K9XOg']/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "dac2849a-2e9f-4cf6-afc1-1171a0fb1783",
+      "id": "770e62a0-b2cb-4671-9565-7c626bc18cc3",
       "comment": "",
       "command": "type",
-      "target": "xpath=//div/div/div/input",
+      "target": "xpath=//textarea",
       "targets": [
-        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$yVWHtcLw$0$$en_US", "name"],
-        ["css=.col-md-7 .form-control", "css:finder"],
-        ["xpath=//input[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhatIsYourName$yVWHtcLw$0$$en_US']", "xpath:attributes"],
-        ["xpath=//div[@id='ddmForm5vHz7RVh']/div[2]/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//div/div/div/input", "xpath:position"]
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US", "name"],
+        ["css=.col-md-12 > .ddm-field-container .ddm-field-text", "css:finder"],
+        ["xpath=//textarea[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormMp4K9XOg']/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
       ],
-      "value": "Pele"
+      "value": "because it has always been my dream"
     }, {
       "id": "42c7eb9e-0c76-4d60-99e6-88f0e102943a",
       "comment": "",
@@ -204,17 +218,30 @@
       ],
       "value": ""
     }, {
-      "id": "7a1ff5e9-2e52-4329-be29-dc952497f275",
+      "id": "25ac185e-f175-48d9-a56f-6c89f1556ede",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//textarea",
+      "targets": [
+        ["name=_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US", "name"],
+        ["css=.has-error > .ddm-field-text", "css:finder"],
+        ["xpath=//textarea[@name='_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_ddm$$WhyDidYouJoinTheTestingArea$Ac34bMjz$0$$en_US']", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormMp4K9XOg']/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2156b5eb-cb06-4312-b779-5aceeab497b0",
       "comment": "",
       "command": "type",
       "target": "css=.input-group-inset",
       "targets": [
         ["css=.input-group-inset", "css:finder"],
-        ["xpath=(//input[@value='__/__/____'])[2]", "xpath:attributes"],
-        ["xpath=//div[@id='ddmForm5vHz7RVh']/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=(//input[@value='02/05/1980'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='ddmFormsNqjiHiH']/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/input[2]", "xpath:idRelative"],
         ["xpath=//div[2]/div/div/div/div/div/div/input[2]", "xpath:position"]
       ],
-      "value": "__/__/____"
+      "value": "02/05/1980"
     }, {
       "id": "ca7deed3-2f61-407d-b302-7f36bc072052",
       "comment": "",
@@ -352,7 +379,7 @@
       "id": "4a9a0ddc-b460-4d38-9f9a-eefcbab33b93",
       "comment": "",
       "command": "assertText",
-      "target": "xpath=//h2",
+      "target": "css=.lfr-ddm__default-page-title",
       "targets": [
         ["css=.lfr-ddm__default-page-title", "css:finder"],
         ["xpath=//div[@id='p_p_id_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_']/div/div/div[2]/h2", "xpath:idRelative"],
