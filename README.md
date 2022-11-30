@@ -1,2 +1,2 @@
 # Testing-Exercise
-Repository created to show testing skills
+Using Selenium IDE to test a forms webpage
